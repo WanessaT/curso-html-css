@@ -1,1 +1,119 @@
 @charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+} /*Começar sempre com essa configuração para limpar a configuração padrão do navegador*/
+
+body {
+    background-color: aquamarine;
+    }
+
+header {
+    background-image: linear-gradient(#75f39b, #39ad63, #26753e);
+    color: beige;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    margin: auto;
+}
+header > h1, p {
+    text-align: center;
+    
+}
+header > h1 {
+    margin: 30px;
+}
+header > p {
+    margin: 15px;
+    text-align: center;
+    font-weight: lighter;
+}
+nav > a {
+    color: beige;
+    text-align: left;
+    text-decoration: none;
+    margin-right: 30px;
+    
+}
+nav > a:hover {
+    text-decoration: underline;
+}
+main {
+    background-color: white;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    text-align: justify;
+    border-radius: 10px;
+  
+}
+h2 {
+    color: #013919;
+    background-color: #7dfb9c33;
+    width: 500px;
+    border-radius: 3px;
+    margin: 30px;
+
+}
+p {
+    text-align: justify;
+    text-indent: 30px;
+    margin: 20px;
+}
+span {
+    font-weight: bold;
+    color: #055126;
+    text-decoration: none;
+}
+p > a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #055126;
+}
+.dan-droids {
+    text-align: center;
+    margin: 30px;
+}
+.irina {
+    text-align: center;
+    margin: 30px;
+}
+.bugdroids {
+    text-align: center;
+    margin: 30px;
+}
+.video {
+background-color: #013919;
+text-align: center;
+margin: 30px;
+}
+.extra {
+    background-color: rgb(190, 250, 211);
+    border-radius: 5px;
+    margin: 10px;
+}
+.extra > h3 {
+    background-color: #349758;
+    color: white;
+    padding: 10px;
+    border-radius: 5px 5px 0px 0px;
+}
+.extra > p {
+    padding: 15px;
+}
+.extra > ul {
+    padding: 15px;
+}
+footer {
+    background-color: #013919;
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+    padding: 8px;
+    margin-top: 10px;
+}
+footer > p {
+
+        text-align: center;
+}
