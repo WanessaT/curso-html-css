@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+} /*Começar sempre com essa configuração para limpar a configuração padrão do navegador*/
+
+body {
+    background-color: #11ede980;
+    }
+
+header {
+    background-image: linear-gradient(#0FC2C0, #0CABA8, #008F8C, #015958);
+    color: beige;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    margin: auto;
+}
+header > h1, p {
+    text-align: center;
+    
+}
+header > h1 {
+    margin: 30px;
+}
+header > p {
+    margin: 15px;
+    text-align: center;
+    font-weight: lighter;
+}
+nav {
+    background-color: #015958;
+}
+nav > a {
+    color: beige;
+    text-align: left;
+    text-decoration: none;
+    margin-right: 30px;
+    
+}
+nav > a:hover {
+    text-decoration: underline;
+}
+main {
+    background-color: white;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    text-align: justify;
+    border-radius: 0px 0px 10px 10px;
+  
+}
+h2 {
+    color: #023535;
+    background-color: #7dfb9c33;
+    width: 500px;
+    border-radius: 3px;
+    margin: 30px;
+
+}
+p {
+    text-align: justify;
+    text-indent: 30px;
+    margin: 20px;
+}
+span {
+    font-weight: bold;
+    color: #015958;
+    text-decoration: none;
+}
+p > a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #015958;
+}
+.dan-droids {
+    text-align: center;
+    margin: 30px;
+}
+.irina {
+    text-align: center;
+    margin: 30px;
+}
+.bugdroids {
+    text-align: center;
+    margin: 30px;
+}
+.video {
+background-color: #023535;
+text-align: center;
+margin: 30px;
+}
+.extra {
+    background-color: #40d9d671;
+    border-radius: 5px;
+    margin: 10px;
+}
+.extra > h3 {
+    background-color: #023535;
+    color: white;
+    padding: 10px;
+    border-radius: 5px 5px 0px 0px;
+}
+.extra > p {
+    padding: 15px;
+}
+.extra > ul {
+    padding: 15px;
+}
+footer {
+    background-color: #023535;
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+    padding: 8px;
+    margin-top: 10px;
+}
+footer > p {
+
+        text-align: center;
+}
+
+/*
+O que falta para concluir o desafio?
+
+- Ajustar fonte;
+- Responsividade;
+- Border-radius da parte de cima do main;
+- Melhorar cores.
+*/

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML</title>
+</head>
+<body>
+    <h1>Inserindo Vídeos com HTML</h1>
+    <p>Nessa aula aprendemos como inserir vídeos que estão hospedados no meu próprio local.</p>
+    <!--<video src="midia/Pedidocasamento.mp4" width="600" controls></video> Essa é uma forma de colocar vídeos-->
+    <video width="600" poster="midia/estrela.jpeg" controls>
+        <source src="midia/Pedidocasamento.mp4" type="video/mp4">
+        <source src="midia/Pedidocasamento.mkv" type="video/mkv">
+        <source src="midia/Pedidocasamento.webm" type="video/webm">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+    </video>
+
+    <h1>Inserindo Vídeos do Youtube</h1>
+    <iframe width="600" height="315" src="https://www.youtube.com/embed/FdE5G95B7Mg?si=RDVbml_Ptw6KYqNk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+</body>
+</html>

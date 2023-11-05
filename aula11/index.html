@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem Dinâmica</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Nessa aula, aprendemos a deixar a imagem responsiva somente com HTML.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagem/wanessa-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagem/wanessa-m.png" type="image/png">
+        <img src="imagem/wanessa-g.png" alt="Imagem Flexível">
+    </picture>
+
+    <h1>Reproduzindo Audios</h1>
+    <p>Também podemos, adicionar mídias de audio somente com HTML.</p>
+    <audio preload="auto" autoplay controls>
+        <source src="midia/audio-yt.mp3" type="audio/mpeg">
+        <p>Infelizmente seu navegador não consegue reproduzir audio. <a href="midia/audio-yt.mp3">Clique aqui para baixar o arquivo</a></p>
+    </audio>
+
+</body>
+</html>
